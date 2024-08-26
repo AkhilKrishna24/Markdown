@@ -2,8 +2,8 @@
 
 **Markdown Notes**
 
-- Heading
-- Paragraphs
+- [Heading](/Heading.md#headings)
+- [Paragraphs](/Heading.md#paragraphs)
 - Line Break
 - Bold
 - Italic
