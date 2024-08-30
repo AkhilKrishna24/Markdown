@@ -18,7 +18,7 @@ Alternatively, **_on the line below the text_**, add any number of **==** _chara
 | ` Heading level`<br> `=============`     | `<h1>Heading level 1</h1>` | <h1>Heading level 1</h1> |
 | ` Heading level 2`<br> `---------------` | `<h2>Heading level 2</h2>` | <h2>Heading level 2</h2> |
 
-### Heading Best Practices
+#### Heading Best Practices
 
 - _always put a space between the_ **number signs** and the **heading name**
 
@@ -33,3 +33,20 @@ Alternatively, **_on the line below the text_**, add any number of **==** _chara
   | `# Here's a Heading` | Without blank lines, this might not look right. <br>`# Heading` <br> <font color="red">Don't do this!</font> |
 
 # Paragraphs
+
+| Markdown                                                         | HTML                                                                    | Output                                                        |
+| ---------------------------------------------------------------- | ----------------------------------------------------------------------- | ------------------------------------------------------------- |
+| ` I really like using Markdown.`                                 | `<p>I really like using Markdown.</p>`                                  | I really like using Markdown.                                 |
+| ` I think I'll use it to format all of my documents from now on` | `<p>I think I'll use it to format all of my documents from now on.</p>` | I think I'll use it to format all of my documents from now on |
+
+#### Heading Best Practices
+
+| ✅Do this                                                     | ❌ Don't do this                                   |
+| ------------------------------------------------------------- | -------------------------------------------------- |
+| Don't put **tabs** or **spaces** in front of your paragraphs. | This can result in unexpected formatting problems. |
+
+### Line Breaks
+
+| Markdown                                                  | HTML                                                                     | Output                                                    |
+| --------------------------------------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------- |
+| This is the first line. <br> And this is the second line. | `<p>This is the first line. <br>`<br> `And this is the second line.</p>` | This is the first line. <br> And this is the second line. |
