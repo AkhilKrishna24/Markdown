@@ -32,6 +32,8 @@ Alternatively, **_on the line below the text_**, add any number of **==** _chara
   | -------------------- | ------------------------------------------------------------------------------------------------------------ |
   | `# Here's a Heading` | Without blank lines, this might not look right. <br>`# Heading` <br> <font color="red">Don't do this!</font> |
 
+  ***
+
 # Paragraphs
 
 | Markdown                                                         | HTML                                                                    | Output                                                        |
@@ -44,6 +46,8 @@ Alternatively, **_on the line below the text_**, add any number of **==** _chara
 | ✅Do this                                                     | ❌ Don't do this                                   |
 | ------------------------------------------------------------- | -------------------------------------------------- |
 | Don't put **tabs** or **spaces** in front of your paragraphs. | This can result in unexpected formatting problems. |
+
+---
 
 ### Line Breaks
 
