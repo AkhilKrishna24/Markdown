@@ -49,8 +49,26 @@ Alternatively, **_on the line below the text_**, add any number of **==** _chara
 
 ---
 
-### Line Breaks
+# Line Breaks
 
 | Markdown                                                  | HTML                                                                     | Output                                                    |
 | --------------------------------------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------- |
 | This is the first line. <br> And this is the second line. | `<p>This is the first line. <br>`<br> `And this is the second line.</p>` | This is the first line. <br> And this is the second line. |
+
+---
+
+# Emphasis
+
+### Bold
+
+| Markdown                      | HTML                                      | Output                     |
+| ----------------------------- | ----------------------------------------- | -------------------------- |
+| ` I just love **bold text**.` | `I just love <strong>bold text</strong>.` | I just love **bold text**. |
+| ` I just love __bold text__.` | `I just love <strong>bold text</strong>.` | I just love **bold text**. |
+| ` Love**is**bold`             | `Love<strong>is</strong>bold`             | Love**is**bold             |
+
+#### Bold Best Practices
+
+| ✅Do this        | ❌ Don't do this |
+| ---------------- | ---------------- |
+| `Love**is**bold` | `Love__is__bold` |
