@@ -5,6 +5,7 @@
 - [Heading](/Reference.md#headings)
 - [Paragraphs](/Reference.md#paragraphs)
 - [Line Break](/Reference.md#line-breaks)
-- [Bold](/Reference.md#bold)
-- Italic
-- Bold and Italic
+- Emphasis
+  - [Bold](/Reference.md#bold)
+  - [Italic](/Reference.md#italic)
+  - Bold and Italic

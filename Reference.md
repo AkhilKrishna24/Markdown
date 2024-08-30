@@ -61,6 +61,8 @@ Alternatively, **_on the line below the text_**, add any number of **==** _chara
 
 ### Bold
 
+To bold text, \*add two **asterisks** or **underscores\*** before and after a word or phrase. To bold the middle of a word for emphasis, add two asterisks without spaces around the letters.
+
 | Markdown                      | HTML                                      | Output                     |
 | ----------------------------- | ----------------------------------------- | -------------------------- |
 | ` I just love **bold text**.` | `I just love <strong>bold text</strong>.` | I just love **bold text**. |
@@ -72,3 +74,17 @@ Alternatively, **_on the line below the text_**, add any number of **==** _chara
 | ✅Do this        | ❌ Don't do this |
 | ---------------- | ---------------- |
 | `Love**is**bold` | `Love__is__bold` |
+
+# Italic
+
+| Markdown                                | HTML                                          | Output                               |
+| --------------------------------------- | --------------------------------------------- | ------------------------------------ |
+| ` Italicized text is the *cat's meow*.` | `Italicized text is the <em>cat's meow</em>.` | Italicized text is the _cat's meow_. |
+| ` Italicized text is the _cat's meow_.` | `Italicized text is the <em>cat's meow</em>.` | Italicized text is the _cat's meow_. |
+| `A*cat*meow`                            | `A<em>cat</em>meow`                           | A*cat*meow                           |
+
+#### Italic Best Practices
+
+| ✅Do this    | ❌ Don't do this |
+| ------------ | ---------------- |
+| `A*cat*meow` | `	A_cat_meow`     |
